@@ -39,14 +39,6 @@ public class StudentController {
 }
 ///////////////
 
-
-
-//@GetMapping("/student/{name}")
-//public String getStudent(@PathVariable String name) {
-//	return "Student Name: " + studentService.getStudent(name);
-//}
-
-
 //
 //@DeleteMapping("/student/{name}")
 //public String deleteStudent(@PathVariable String name) {
