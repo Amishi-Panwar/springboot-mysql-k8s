@@ -31,17 +31,3 @@ public class StudentController {
 		return studentService.getStudents();
 	}
 	
-//	@GetMapping("/deleteStudent/{id}")
-//	public String deleteStudent(@PathVariable Long id) {
-//		studentDao.deleteById(id);
-//		return "Student deleted successfully"+id;
-//	}
-}
-///////////////
-
-//
-//@DeleteMapping("/student/{name}")
-//public String deleteStudent(@PathVariable String name) {
-//	studentService.deleteStudent(name);
-//	return "Student: " + name + " is deleted from the db";
-//}
